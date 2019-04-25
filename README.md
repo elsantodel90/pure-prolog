@@ -3,6 +3,7 @@ Pure prolog interpreter written in Haskell
 
 # Example run
 
+```
 PROMPT$ ./prologInterpreter 
 load(test).
 Cargando test.pl ...
@@ -56,3 +57,4 @@ false.
 pred(X,Y).
 X = X0 , Y = suc(X0);
 false.
+```
